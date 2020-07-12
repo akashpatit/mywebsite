@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/tute8.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FORM</title>
+</head>
+
+<body>
+    <h1>CHECK! &nbsp; WHICH CARREAR SUITS YOU THE BEST</h1>
+    <h3> Please fill this form carefully</h3>
+    <form action="http://127.0.0.1:5500/akash.html">
+        <ul type="disc">
+       <li>
+         <div>
+            <label for="name"> <strong>NAME:</strong></label>
+            <input type="text" id="name">
+        </div>
+    </li>
+        <br>
+        <li>
+        <div>
+            <label for="id"><strong>EMAIL:</strong> </label>
+            <input type="email" id="id">
+        </div></li>
+        <br>
+        <li>
+             <div> 
+            <label for="date"><strong>D.O.B:</strong> </label>
+                <input type="date" id="date">
+            </div></li>
+            <br>
+           <li> 
+               <div>
+                   <label for="gender"> <strong>GENDER:</strong></label>
+            male <input type="radio" name="gender" id="gender">
+            female <input type="radio" name="gender" id="gender">
+            other <input type="radio" id="gender" name="gender">
+        </div></li>
+        <br>
+<li>
+  <div>
+      <label for="qualification"><strong>EDUCATIONAL QUALIFICATION:</strong></label> 
+       <select name="qualification" id="qualification">
+           <option value="graduate">GRADUATE</option>
+<option value="inter">INTERMEDIATE</option>
+      
+       <option value="highschool">HIGHSCHOOL</option>
+    </select>
+    </div>
+    <br>
+    </li><li>
+        <div>
+            <label for="eligibility"> <strong>CHECK THIS BOX IF YOU ARE NOT A MINOR:
+            <input type="checkbox">
+        </strong></label></div><strong>
+    </strong></li><strong>
+
+
+    </strong></ul><strong>
+    <input type="submit" value="submit now">
+    <input type="reset" value="reset now">
+
+    
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</strong></form></body></html>
